@@ -3,3 +3,63 @@
   height: 300px;
 }
 
+
+#about .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about .timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+#about .timeline .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+#about .timeline .container::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 4px solid #ddd;
+  top: 15px;
+  left: -50%;
+  border-radius: 50%;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#about .timeline .container:hover::after {
+  background-color: #ddd;
+}
+
+#about .timeline .container .content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+#about .timeline .container.left {
+  left: 0;
+}
+
+#about .timeline .container.right {
+  left: 50%;
+}
+
+
