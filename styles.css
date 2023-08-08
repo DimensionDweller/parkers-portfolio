@@ -49,19 +49,13 @@ p {
 </section>
 
 
-.timeline {
+#about .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.timeline::after {
+#about .timeline::after {
   content: '';
   position: absolute;
   width: 6px;
@@ -72,14 +66,14 @@ p {
   margin-left: -3px;
 }
 
-.timeline .container {
+#about .timeline .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.timeline .container::after {
+#about .timeline .container::after {
   content: '';
   position: absolute;
   width: 30px;
@@ -94,22 +88,23 @@ p {
   transition: background-color 0.3s ease-in-out;
 }
 
-.timeline .container:hover::after {
+#about .timeline .container:hover::after {
   background-color: #ddd;
 }
 
-.timeline .container .content {
+#about .timeline .container .content {
   padding: 20px 30px;
   background-color: white;
   position: relative;
   border-radius: 6px;
 }
 
-.timeline .container.left {
+#about .timeline .container.left {
   left: 0;
 }
 
-.timeline .container.right {
+#about .timeline .container.right {
   left: 50%;
 }
+
 
