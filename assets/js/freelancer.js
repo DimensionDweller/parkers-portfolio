@@ -61,8 +61,8 @@
       var messages = [
         "Welcome",
         "Please scroll down to see my projects and learn more about me",
-        "Don't forget to be kind to others...",
-        "And do more Data Science for social good...",
+        "Friendly reminder to be kind to others...",
+        "And do more Data Science for social good when you can...",
         "And, of course, have fun while doing it all!"
       ];
 

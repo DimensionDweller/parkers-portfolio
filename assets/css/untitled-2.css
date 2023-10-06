@@ -147,8 +147,8 @@
 .content.left {
   text-align: left;
   /*background-color: white;*/
-  padding: 10px;
-  border: 1px solid white;
+  /*padding: 10px;*/
+  /*border: 1px solid white;*/
   margin: 10px 0;
   max-width: 40%;
 }
